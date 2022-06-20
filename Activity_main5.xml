@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:background="@drawable/gavi2"
+ tools:context=".MainActivity5">
+ <TextView
+ android:id="@+id/textView15"
+ android:layout_width="362dp"
+ android:layout_height="425dp"
+ android:text="Gavi is an Eco-Tourism a project of the Kerala Forest
+Development Corporation located in Pathanamthitta district, Kerala. Gavi,
+located in Pathanamthitta district offers its visitors activities like
+trekking, wildlife watching, outdoor camping in specially built tents, and
+night safaris. Distance from Pathanamthitta To Gavi is 109 km 428 mtrs and
+Travel Time is 2 hour 5 mins By Road. Gavi is 14 km south west of
+Vandiperiyar, 28 km from Kumily, near Thekkady. Gavi is inside the Ranni
+reserve forest. Gavi is a part of Seethathode Panchayath in Ranni Taluk.
+Gavi is part of the Periyar Tiger Reserve, and the route can be covered by
+car from Vandiperiyar. The entrance fee is 25 rupees per person and 50
+rupees per vehicle. Cameras are 25 rupees and video cameras are charged 100
+rupees. Both day and night stays are available. Forest tent camping is
+available from November through March. It has been said that most
+enjoyable route to Gavi is the way from Pathanamthitta. The rough journey
+to Gavi may better be made on a sturdy vehicle like a jeep. Entry passes
+must be obtained from the Forest Check Post en route at Vallakkadavu.
+Advance booking with the Kerala Forest Development Corporation Ltd. is
+highly appreciable wherein such formalities will be taken care of by the
+company itself."
+ android:textStyle="bold"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.489"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.313" />
+ <Button
+ android:id="@+id/button"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Click Here for more"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.748" />
+</androidx.constraintlayout.widget.ConstraintLayout>
