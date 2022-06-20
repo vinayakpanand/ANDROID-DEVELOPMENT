@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity6"
+ android:background="@drawable/sabari">
+ <TextView
+ android:id="@+id/textView16"
+ android:layout_width="355dp"
+ android:layout_height="334dp"
+ android:text="Sabarimala Sree Dharma Sastha Temple, dedicated to
+Lord Ayyappa, is the most famous and prominent among all the Sastha temples
+in Kerala. The temple is situated on a hilltop (about 3000 feet above sea
+level) named Sabarimala in Pathanamthitta district, which is unique. The
+temple is open to people belonging to all religions. There is a place near
+the temple; east of Sannidhanam (the abode of Lord Ayyappa), dedicated to
+Vavar (a close friend of Lord Ayyappa) which is called Vavaru Nada, an
+epitome of religious harmony. Another unique aspect of this temple is that
+it is not open throughout the year. It is open for worship only during the
+days of Mandalapooja, Makaravilakku, Vishu and also during the first day of
+every Malayalam month. It is said that the pilgrims have to observe
+celibacy for 41 days before going to Sabarimala. Pilgrims take the
+traditional forest routes as well as the one from Pamba which is less
+physically challenging to reach the temple."
+ android:textStyle="bold"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.301" />
+ <Button
+ android:id="@+id/button2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Click Here to read more"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.676" />
