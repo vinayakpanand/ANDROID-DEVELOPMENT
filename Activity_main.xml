@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <VideoView
+ android:id="@+id/videoview"
+ android:layout_width="match_parent"
+ android:layout_height="725dp"
+ android:layout_alignParentTop="true"
+ android:layout_alignParentBottom="true"
+ android:layout_alignParentLeft="true"
+ android:layout_alignParentRight="true"
+ android:layout_marginTop="0dp"
+ android:layout_marginBottom="6dp" />
+ <Button
+ android:id="@+id/imageView2"
+ android:layout_width="match_parent"
+ android:layout_height="67dp"
+ android:layout_alignParentBottom="true"
+ android:onClick="Pageone"
+ android:backgroundTint="@color/teal_700"
+ android:text="Click here to continue" />
+</RelativeLayout>
